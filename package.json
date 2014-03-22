@@ -1,0 +1,15 @@
+{
+  "name": "meteorsocket-mon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "0.2.x",
+    "libxmljs": "0.8.x",
+    "lodash": "2.4.x",
+    "socket.io-client": "~0.9.16",
+    "socket.io": "~0.9.16"
+  }
+}

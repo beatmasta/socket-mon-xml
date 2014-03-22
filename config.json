@@ -1,0 +1,12 @@
+{
+    "xmlUrl": "http://p1.bet3000.exxs.net/client/clientService.php?action=getFeedconfig",
+    "xPath": "//clientService/result/feed/feedconfig/settings/server_settings/socket_urls",
+    "keys": {
+        "lang": "lang",
+        "host": "url",
+        "port": "port",
+        "type": "type"
+    },
+    "timeOutSeconds": 30,
+    "trimmables": [ "<script>p(-1,\"\");</script>" ]
+}
