@@ -176,5 +176,6 @@ var trimBuffer = function(buf) {
 };
 
 var json = function(object) {
-    return console.log(JSON.stringify(object));
+    console.log(JSON.stringify(object));
+    return process.exit();
 };
