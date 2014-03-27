@@ -49,14 +49,28 @@ http.get(requestOptions, function(res) {
                             netClient.connect(port, host, function() {
                                 // DEBUG
 //                                l('netClient[' + (++clientCount) + '] connected at "' + host + ':' + port + '"');
+                                fl('netClient[' + (++clientCount) + '] connected at "' + host + ':' + port + '"');
                             });
                             var sockBuffer = '';
                             var timeOut = null;
                             var xFlag = false;
                             netClient.on('error', function(err) {
                                 passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] refused at "' + host + ':' + port + '"');
                                 asyncDone();
 //                                l('netClient[' + (++clientCount) + '] refused at "' + host + ':' + port + '"');
+                            });
+                            netClient.on('close', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] closed at "' + host + ':' + port + '"');
+                            });
+                            netClient.on('timeout', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] timed out at "' + host + ':' + port + '"');
+                            });
+                            netClient.on('drain', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] drained at "' + host + ':' + port + '"');
                             });
                             netClient.on('data', function(data) {
                                 if ( xFlag ) return;
@@ -70,10 +84,11 @@ http.get(requestOptions, function(res) {
                                     } else {
                                         activeSockets.push(sockInfo(i));
                                     }
-                                    xFlag = true;
                                     netClient.destroy(); // kill client after config seconds' timeout
+                                    xFlag = true;
                                     asyncDone();
                                 } else {
+                                    fl('Buffering socket response: ' + sockProp(i, 'type') + '://' + host + ':' + port);
                                     sockBuffer += data;
                                 }
                             });
@@ -84,6 +99,22 @@ http.get(requestOptions, function(res) {
                             var sockBuffer = '';
                             var timeOut = null;
                             var xFlag = false;
+                            socket.on('connect_error', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] disconnected at "' + host + ':' + port + '"');
+                            });
+                            socket.on('connect_timeout', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] timed out at "' + host + ':' + port + '"');
+                            });
+                            socket.on('reconnect_error', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] non-reconnected at "' + host + ':' + port + '"');
+                            });
+                            socket.on('reconnect_failed', function(err) {
+                                passiveSockets.push(sockInfo(i));
+                                fl('netClient[' + (++clientCount) + '] failed to reconnect at "' + host + ':' + port + '"');
+                            });
                             socket.$emit = function() {
                                 if ( xFlag ) return;
                                 if ( null === timeOut ) {
@@ -104,11 +135,13 @@ http.get(requestOptions, function(res) {
                                     if ( feed && feed != 'websocket' ) {
                                         sockBuffer += feed;
                                     }
+                                    fl('Buffering emitted socket response: ' + sockProp(i, 'type') + '://' + host + ':' + port);
                                     sockEmitOriginal.apply(this, Array.prototype.slice.call(arguments));
                                 }
                             };
                             break;
                         default:
+                            fl('Unknown socket type: ' + sockProp(i, 'type') + '://' + host + ':' + port);
                             return json({
                                 success: false,
                                 error: "unknown_socket_type",
@@ -120,13 +153,16 @@ http.get(requestOptions, function(res) {
         }
         async.parallel(asyncStack, function(err) {
             if ( err ) {
+                var msg = (err.message ? err.message : err.toString());
+                fl('Async error! ' + msg);
                 return json({
                     success: false,
                     error: "error_checking_urls",
-                    message: (err.message ? err.message : err.toString())
+                    message: msg
                 });
             }
             var success = (passiveSockets.length < 1);
+            fl((success ? 'SUCCESS' : 'ERROR') + '! Socket detection is complete.');
             return json({
                 success: success,
                 error: (success ? null : "bad_sockets_detected"),
@@ -138,12 +174,20 @@ http.get(requestOptions, function(res) {
             });
         });
     }).on('error', function(e) {
+        fl('XML get error: ' + e.message);
         return json({
             success: false,
             error: "request_xml_feed_error",
             message: e.message
         });
     });
+}).on('error', function(e) {
+    fl('XML get error: ' + e.message);
+    return json({
+        success: false,
+        error: "request_xml_feed_error",
+        message: e.message
+    }); 
 });
 
 var timeOutSock = function(sockNum) {

@@ -10,6 +10,7 @@
     "libxmljs": "0.8.x",
     "lodash": "2.4.x",
     "socket.io-client": "~0.9.16",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "moment": "2.5.x"
   }
 }
