@@ -39,7 +39,8 @@ http.get(requestOptions, function(res) {
         // to later be executed as async.parallel actions
         for ( var i in socketUrlNodes ) {
             if ( socketUrlNodes[i].name() == 'text' ) continue;
-            (function(i) {
+            clientCount++;
+            (function(i, clientCount) {
                 asyncStack.push(function(asyncDone) {
                     var host = sockProp(i, 'host');
                     var port = sockProp(i, 'port');
@@ -47,32 +48,32 @@ http.get(requestOptions, function(res) {
                         case 'socket':
                             var netClient = new net.Socket()
                             netClient.connect(port, host, function() {
-                                // DEBUG
-//                                l('netClient[' + (++clientCount) + '] connected at "' + host + ':' + port + '"');
-                                fl('netClient[' + (++clientCount) + '] connected at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] connected at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
                             });
                             var sockBuffer = '';
                             var timeOut = null;
                             var xFlag = false;
                             netClient.on('error', function(err) {
+                                fl('netClient[' + clientCount + '] refused at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
                                 passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] refused at "' + host + ':' + port + '"');
                                 asyncDone();
-//                                l('netClient[' + (++clientCount) + '] refused at "' + host + ':' + port + '"');
                             });
                             netClient.on('close', function(err) {
-                                passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] closed at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] closed at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
+                                netClient.destroy();
                             });
                             netClient.on('timeout', function(err) {
-                                passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] timed out at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] timed out at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
+                                netClient.destroy();
                             });
                             netClient.on('drain', function(err) {
-                                passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] drained at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] drained at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
+                            });
+                            netClient.on('end', function() {
+                                fl('netClient[' + clientCount + '] ended at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
                             });
                             netClient.on('data', function(data) {
+                            l('************************************')
                                 if ( xFlag ) return;
                                 if ( null === timeOut ) {
                                     setTimeout(timeOutSock.bind(this, i), cfg.timeOutSeconds * 1000);
@@ -84,11 +85,12 @@ http.get(requestOptions, function(res) {
                                     } else {
                                         activeSockets.push(sockInfo(i));
                                     }
-                                    netClient.destroy(); // kill client after config seconds' timeout
                                     xFlag = true;
+                                    fl('netClient[' + clientCount + '] socket timeout (normal exit) detected at: ' + sockProp(i, 'type') + '://' + host + ':' + port);
+                                    netClient.destroy(); // kill client after config seconds' timeout
                                     asyncDone();
                                 } else {
-                                    fl('Buffering socket response: ' + sockProp(i, 'type') + '://' + host + ':' + port);
+                                    fl('netClient[' + clientCount + '] buffering socket response: ' + sockProp(i, 'type') + '://' + host + ':' + port);
                                     sockBuffer += data;
                                 }
                             });
@@ -100,22 +102,22 @@ http.get(requestOptions, function(res) {
                             var timeOut = null;
                             var xFlag = false;
                             socket.on('connect_error', function(err) {
+                                fl('netClient[' + clientCount + '] disconnected at "' + host + ':' + port + '"');
                                 passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] disconnected at "' + host + ':' + port + '"');
+                                socket.disconnect();
+                                asyncDone();
                             });
                             socket.on('connect_timeout', function(err) {
-                                passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] timed out at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] timed out at "' + host + ':' + port + '"');
                             });
                             socket.on('reconnect_error', function(err) {
-                                passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] non-reconnected at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] non-reconnected at "' + host + ':' + port + '"');
                             });
                             socket.on('reconnect_failed', function(err) {
-                                passiveSockets.push(sockInfo(i));
-                                fl('netClient[' + (++clientCount) + '] failed to reconnect at "' + host + ':' + port + '"');
+                                fl('netClient[' + clientCount + '] failed to reconnect at "' + host + ':' + port + '"');
                             });
                             socket.$emit = function() {
+                            l('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
                                 if ( xFlag ) return;
                                 if ( null === timeOut ) {
                                     setTimeout(timeOutSock.bind(this, i), cfg.timeOutSeconds * 1000);
@@ -128,6 +130,8 @@ http.get(requestOptions, function(res) {
                                         activeSockets.push(sockInfo(i));
                                     }
                                     xFlag = true;
+                                    fl('netClient[' + clientCount + '] socket timeout (normal exit) detected at: ' + sockProp(i, 'type') + '://' + host + ':' + port);
+                                    socket.disconnect();
                                     asyncDone();
                                 } else {
                                     var event = arguments[0];
@@ -135,7 +139,7 @@ http.get(requestOptions, function(res) {
                                     if ( feed && feed != 'websocket' ) {
                                         sockBuffer += feed;
                                     }
-                                    fl('Buffering emitted socket response: ' + sockProp(i, 'type') + '://' + host + ':' + port);
+                                    fl('netClient[' + clientCount + '] buffering emitted socket response: ' + sockProp(i, 'type') + '://' + host + ':' + port);
                                     sockEmitOriginal.apply(this, Array.prototype.slice.call(arguments));
                                 }
                             };
@@ -149,8 +153,9 @@ http.get(requestOptions, function(res) {
                             });
                     }
                 });
-            })(i);
+            })(i, clientCount);
         }
+        l('============================TOTAL: ' + clientCount + '=====================')
         async.parallel(asyncStack, function(err) {
             if ( err ) {
                 var msg = (err.message ? err.message : err.toString());

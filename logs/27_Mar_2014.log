@@ -48,3 +48,512 @@
 [04:56:45] Buffering emitted socket response: socketio://85.214.138.195:18111
 [04:56:45] Buffering emitted socket response: socketio://54.217.230.21:18111
 [04:56:45] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:11:42] netClient[1] connected at "188.40.67.204:8111"
+[10:11:42] netClient[2] connected at "176.28.10.76:143"
+[10:11:42] netClient[3] connected at "176.28.10.76:110"
+[10:11:42] netClient[4] connected at "188.40.67.204:110"
+[10:11:42] netClient[5] connected at "188.40.67.204:443"
+[10:11:42] netClient[6] connected at "188.40.67.204:80"
+[10:11:42] netClient[7] connected at "188.40.67.204:143"
+[10:11:42] netClient[8] connected at "176.28.10.76:8111"
+[10:11:42] netClient[9] connected at "176.28.10.76:80"
+[10:11:42] netClient[10] connected at "176.28.10.76:443"
+[10:11:42] netClient[11] connected at "p1.bet3000.exxs.net:8111"
+[10:11:42] netClient[12] connected at "85.214.138.195:8111"
+[10:11:42] netClient[13] connected at "85.214.138.195:80"
+[10:11:42] netClient[14] connected at "85.214.138.195:110"
+[10:11:42] netClient[15] connected at "85.214.138.195:443"
+[10:11:42] netClient[16] connected at "p1.bet3000.exxs.net:8113"
+[10:11:42] netClient[17] connected at "85.214.138.195:143"
+[10:11:42] netClient[18] connected at "p2.bet3000.exxs.net:8111"
+[10:11:42] netClient[19] connected at "p2.bet3000.exxs.net:8113"
+[10:11:42] netClient[20] connected at "54.217.230.21:8111"
+[10:11:42] netClient[21] connected at "54.217.230.21:443"
+[10:11:42] netClient[22] connected at "54.217.230.21:80"
+[10:11:42] Buffering emitted socket response: socketio://188.40.67.204:18111
+[10:11:42] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[10:11:42] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:11:42] Buffering emitted socket response: socketio://176.28.10.76:18111
+[10:11:42] Buffering emitted socket response: socketio://85.214.138.195:18111
+[10:11:42] Buffering emitted socket response: socketio://54.217.230.21:18111
+[10:11:42] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[10:11:42] Buffering emitted socket response: socketio://188.40.67.204:18111
+[10:11:42] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:11:42] Buffering emitted socket response: socketio://176.28.10.76:18111
+[10:11:42] Buffering emitted socket response: socketio://85.214.138.195:18111
+[10:11:42] Buffering emitted socket response: socketio://54.217.230.21:18111
+[10:11:44] Buffering socket response: socket://85.214.138.195:110
+[10:11:44] Buffering socket response: socket://85.214.138.195:80
+[10:11:44] Buffering socket response: socket://54.217.230.21:443
+[10:11:44] Buffering socket response: socket://85.214.138.195:8111
+[10:11:46] netClient[23] closed at "85.214.138.195:8111"
+[10:11:46] netClient[24] closed at "85.214.138.195:110"
+[10:11:46] netClient[25] closed at "54.217.230.21:443"
+[10:11:46] netClient[26] closed at "85.214.138.195:80"
+[10:25:12] netClient[1] connected at "176.28.10.76:8111"
+[10:25:12] netClient[2] connected at "176.28.10.76:80"
+[10:25:12] netClient[3] connected at "176.28.10.76:110"
+[10:25:12] netClient[4] connected at "188.40.67.204:443"
+[10:25:12] netClient[5] connected at "188.40.67.204:143"
+[10:25:12] netClient[6] connected at "188.40.67.204:8111"
+[10:25:12] netClient[7] connected at "188.40.67.204:80"
+[10:25:12] netClient[8] connected at "188.40.67.204:110"
+[10:25:12] netClient[9] connected at "176.28.10.76:443"
+[10:25:12] netClient[10] connected at "176.28.10.76:143"
+[10:25:12] netClient[11] connected at "p1.bet3000.exxs.net:8111"
+[10:25:12] netClient[12] connected at "85.214.138.195:8111"
+[10:25:12] netClient[13] connected at "85.214.138.195:80"
+[10:25:12] netClient[14] connected at "85.214.138.195:443"
+[10:25:12] netClient[15] connected at "85.214.138.195:110"
+[10:25:12] netClient[16] connected at "85.214.138.195:143"
+[10:25:12] netClient[17] connected at "p1.bet3000.exxs.net:8113"
+[10:25:12] netClient[18] connected at "54.217.230.21:8111"
+[10:25:12] netClient[19] connected at "54.217.230.21:443"
+[10:25:12] netClient[20] connected at "54.217.230.21:80"
+[10:25:13] Buffering emitted socket response: socketio://176.28.10.76:18111
+[10:25:13] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[10:25:13] Buffering emitted socket response: socketio://188.40.67.204:18111
+[10:25:13] netClient[21] connected at "p2.bet3000.exxs.net:8113"
+[10:25:13] netClient[22] connected at "p2.bet3000.exxs.net:8111"
+[10:25:13] Buffering emitted socket response: socketio://85.214.138.195:18111
+[10:25:13] Buffering emitted socket response: socketio://54.217.230.21:18111
+[10:25:13] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:25:13] Buffering emitted socket response: socketio://176.28.10.76:18111
+[10:25:13] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[10:25:13] Buffering emitted socket response: socketio://188.40.67.204:18111
+[10:25:13] Buffering emitted socket response: socketio://85.214.138.195:18111
+[10:25:13] Buffering emitted socket response: socketio://54.217.230.21:18111
+[10:25:13] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:25:14] Buffering socket response: socket://85.214.138.195:8111
+[10:25:14] Buffering socket response: socket://54.217.230.21:443
+[10:25:14] Buffering socket response: socket://54.217.230.21:443
+[10:25:14] Buffering socket response: socket://85.214.138.195:80
+[10:25:14] Buffering socket response: socket://85.214.138.195:110
+[10:25:17] netClient[23] closed at "85.214.138.195:8111"
+[10:25:17] netClient[24] closed at "85.214.138.195:80"
+[10:25:17] netClient[25] closed at "85.214.138.195:110"
+[10:25:17] netClient[26] closed at "54.217.230.21:443"
+[10:36:29] netClient[1] connected at "176.28.10.76:8111"
+[10:36:29] netClient[2] connected at "176.28.10.76:443"
+[10:36:29] netClient[3] connected at "176.28.10.76:80"
+[10:36:29] netClient[4] connected at "176.28.10.76:143"
+[10:36:29] netClient[5] connected at "176.28.10.76:110"
+[10:36:29] netClient[6] connected at "188.40.67.204:80"
+[10:36:29] netClient[7] connected at "188.40.67.204:8111"
+[10:36:29] netClient[8] connected at "188.40.67.204:443"
+[10:36:29] netClient[9] connected at "188.40.67.204:110"
+[10:36:29] netClient[10] connected at "188.40.67.204:143"
+[10:36:29] netClient[11] connected at "85.214.138.195:8111"
+[10:36:29] netClient[12] connected at "p1.bet3000.exxs.net:8111"
+[10:36:29] netClient[13] connected at "85.214.138.195:443"
+[10:36:29] netClient[14] connected at "85.214.138.195:80"
+[10:36:29] netClient[15] connected at "85.214.138.195:110"
+[10:36:29] netClient[16] connected at "85.214.138.195:143"
+[10:36:29] netClient[17] connected at "p1.bet3000.exxs.net:8113"
+[10:36:29] netClient[18] connected at "54.217.230.21:8111"
+[10:36:29] netClient[19] connected at "54.217.230.21:80"
+[10:36:29] netClient[20] connected at "54.217.230.21:443"
+[10:36:29] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[10:36:29] Buffering emitted socket response: socketio://188.40.67.204:18111
+[10:36:29] Buffering emitted socket response: socketio://176.28.10.76:18111
+[10:36:29] netClient[21] connected at "p2.bet3000.exxs.net:8111"
+[10:36:29] netClient[22] connected at "p2.bet3000.exxs.net:8113"
+[10:36:29] Buffering emitted socket response: socketio://85.214.138.195:18111
+[10:36:29] Buffering emitted socket response: socketio://54.217.230.21:18111
+[10:36:29] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:36:29] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[10:36:29] Buffering emitted socket response: socketio://176.28.10.76:18111
+[10:36:29] Buffering emitted socket response: socketio://188.40.67.204:18111
+[10:36:29] Buffering emitted socket response: socketio://85.214.138.195:18111
+[10:36:29] Buffering emitted socket response: socketio://54.217.230.21:18111
+[10:36:29] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[10:36:30] Buffering socket response: socket://85.214.138.195:8111
+[10:36:30] Buffering socket response: socket://85.214.138.195:80
+[10:36:30] Buffering socket response: socket://85.214.138.195:110
+[10:36:30] Buffering socket response: socket://54.217.230.21:443
+[10:36:34] netClient[23] closed at "85.214.138.195:8111"
+[10:36:34] netClient[24] closed at "85.214.138.195:80"
+[10:36:34] netClient[25] closed at "85.214.138.195:110"
+[10:36:34] netClient[26] closed at "54.217.230.21:443"
+[11:38:52] netClient[1] connected at "176.28.10.76:80"
+[11:38:52] netClient[2] connected at "176.28.10.76:443"
+[11:38:52] netClient[3] connected at "188.40.67.204:8111"
+[11:38:52] netClient[4] connected at "188.40.67.204:443"
+[11:38:52] netClient[5] connected at "188.40.67.204:110"
+[11:38:52] netClient[6] connected at "188.40.67.204:80"
+[11:38:52] netClient[7] connected at "188.40.67.204:143"
+[11:38:52] netClient[8] connected at "176.28.10.76:8111"
+[11:38:52] netClient[9] connected at "176.28.10.76:110"
+[11:38:52] netClient[10] connected at "176.28.10.76:143"
+[11:38:52] netClient[11] connected at "p1.bet3000.exxs.net:8111"
+[11:38:52] netClient[12] connected at "85.214.138.195:8111"
+[11:38:52] netClient[13] connected at "85.214.138.195:80"
+[11:38:52] netClient[14] connected at "p1.bet3000.exxs.net:8113"
+[11:38:52] netClient[15] connected at "85.214.138.195:443"
+[11:38:52] netClient[16] connected at "85.214.138.195:110"
+[11:38:52] netClient[17] connected at "85.214.138.195:143"
+[11:38:52] netClient[18] connected at "54.217.230.21:8111"
+[11:38:52] netClient[19] connected at "54.217.230.21:443"
+[11:38:52] netClient[20] connected at "54.217.230.21:80"
+[11:38:52] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:38:52] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:38:52] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:38:52] netClient[21] connected at "p2.bet3000.exxs.net:8111"
+[11:38:52] netClient[22] connected at "p2.bet3000.exxs.net:8113"
+[11:38:52] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:38:52] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:38:52] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:38:52] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:38:52] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:38:52] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:38:52] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:38:52] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:38:52] Buffering socket response: socket://85.214.138.195:8111
+[11:38:52] Buffering socket response: socket://85.214.138.195:80
+[11:38:52] Buffering socket response: socket://85.214.138.195:110
+[11:38:52] Buffering socket response: socket://54.217.230.21:443
+[11:38:52] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:38:52] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:43:32] netClient[1] connected at "176.28.10.76:8111"
+[11:43:32] netClient[2] connected at "188.40.67.204:8111"
+[11:43:32] netClient[3] connected at "188.40.67.204:80"
+[11:43:32] netClient[4] connected at "188.40.67.204:110"
+[11:43:32] netClient[5] connected at "188.40.67.204:143"
+[11:43:32] netClient[6] connected at "188.40.67.204:443"
+[11:43:32] netClient[7] connected at "176.28.10.76:80"
+[11:43:32] netClient[8] connected at "176.28.10.76:443"
+[11:43:32] netClient[9] connected at "176.28.10.76:110"
+[11:43:32] netClient[10] connected at "176.28.10.76:143"
+[11:43:32] netClient[11] connected at "p1.bet3000.exxs.net:8111"
+[11:43:32] netClient[12] connected at "85.214.138.195:8111"
+[11:43:32] netClient[13] connected at "85.214.138.195:80"
+[11:43:32] netClient[14] connected at "85.214.138.195:443"
+[11:43:32] netClient[15] connected at "85.214.138.195:110"
+[11:43:32] netClient[16] connected at "p1.bet3000.exxs.net:8113"
+[11:43:32] netClient[17] connected at "85.214.138.195:143"
+[11:43:32] netClient[18] connected at "54.217.230.21:8111"
+[11:43:32] netClient[19] connected at "54.217.230.21:80"
+[11:43:32] netClient[20] connected at "54.217.230.21:443"
+[11:43:32] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:43:32] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:43:32] netClient[21] connected at "p2.bet3000.exxs.net:8113"
+[11:43:32] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:43:32] netClient[22] connected at "p2.bet3000.exxs.net:8111"
+[11:43:32] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:43:32] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:43:32] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:43:32] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:43:32] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:43:32] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:43:32] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:43:32] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:43:32] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:43:33] Buffering socket response: socket://85.214.138.195:8111
+[11:43:33] Buffering socket response: socket://85.214.138.195:80
+[11:43:33] Buffering socket response: socket://85.214.138.195:110
+[11:43:33] Buffering socket response: socket://54.217.230.21:443
+[11:47:48] netClient[1] connected at "176.28.10.76:8111"
+[11:47:48] netClient[2] connected at "176.28.10.76:80"
+[11:47:48] netClient[3] connected at "188.40.67.204:8111"
+[11:47:48] netClient[4] connected at "188.40.67.204:80"
+[11:47:48] netClient[5] connected at "176.28.10.76:143"
+[11:47:48] netClient[6] connected at "176.28.10.76:110"
+[11:47:48] netClient[7] connected at "188.40.67.204:443"
+[11:47:48] netClient[8] connected at "188.40.67.204:110"
+[11:47:48] netClient[9] connected at "188.40.67.204:143"
+[11:47:48] netClient[10] connected at "176.28.10.76:443"
+[11:47:48] netClient[11] connected at "p1.bet3000.exxs.net:8111"
+[11:47:48] netClient[12] connected at "85.214.138.195:8111"
+[11:47:48] netClient[13] connected at "85.214.138.195:80"
+[11:47:48] netClient[14] connected at "85.214.138.195:443"
+[11:47:48] netClient[15] connected at "85.214.138.195:110"
+[11:47:48] netClient[16] connected at "85.214.138.195:143"
+[11:47:48] netClient[17] connected at "p1.bet3000.exxs.net:8113"
+[11:47:48] netClient[18] connected at "54.217.230.21:443"
+[11:47:48] netClient[19] connected at "54.217.230.21:8111"
+[11:47:48] netClient[20] connected at "54.217.230.21:80"
+[11:47:48] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:47:48] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:47:48] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:47:48] netClient[21] connected at "p2.bet3000.exxs.net:8111"
+[11:47:48] netClient[22] connected at "p2.bet3000.exxs.net:8113"
+[11:47:48] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:47:48] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:47:48] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:47:48] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:47:48] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:47:48] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:47:48] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:47:48] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:47:48] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:47:49] Buffering socket response: socket://85.214.138.195:8111
+[11:47:49] Buffering socket response: socket://85.214.138.195:8111
+[11:47:49] Buffering socket response: socket://54.217.230.21:443
+[11:47:49] Buffering socket response: socket://54.217.230.21:443
+[11:47:49] Buffering socket response: socket://85.214.138.195:110
+[11:47:49] Buffering socket response: socket://85.214.138.195:110
+[11:47:49] Buffering socket response: socket://85.214.138.195:80
+[11:47:49] Buffering socket response: socket://85.214.138.195:80
+[11:47:51] netClient[23] closed at "85.214.138.195:110"
+[11:47:51] netClient[24] closed at "85.214.138.195:8111"
+[11:47:51] netClient[25] closed at "54.217.230.21:443"
+[11:47:51] netClient[26] closed at "85.214.138.195:80"
+[11:50:00] netClient[28] connected at "176.28.10.76:443"
+[11:50:00] netClient[28] connected at "176.28.10.76:143"
+[11:50:00] netClient[28] connected at "176.28.10.76:110"
+[11:50:00] netClient[28] connected at "188.40.67.204:80"
+[11:50:00] netClient[28] connected at "188.40.67.204:110"
+[11:50:00] netClient[28] connected at "188.40.67.204:8111"
+[11:50:00] netClient[28] connected at "188.40.67.204:443"
+[11:50:00] netClient[28] connected at "188.40.67.204:143"
+[11:50:00] netClient[28] connected at "176.28.10.76:8111"
+[11:50:00] netClient[28] connected at "176.28.10.76:80"
+[11:50:00] netClient[28] connected at "p1.bet3000.exxs.net:8111"
+[11:50:00] netClient[28] connected at "85.214.138.195:8111"
+[11:50:00] netClient[28] connected at "85.214.138.195:80"
+[11:50:00] netClient[28] connected at "85.214.138.195:443"
+[11:50:00] netClient[28] connected at "85.214.138.195:110"
+[11:50:00] netClient[28] connected at "85.214.138.195:143"
+[11:50:00] netClient[28] connected at "p1.bet3000.exxs.net:8113"
+[11:50:00] netClient[28] connected at "54.217.230.21:8111"
+[11:50:00] netClient[28] connected at "54.217.230.21:80"
+[11:50:00] netClient[28] connected at "54.217.230.21:443"
+[11:50:00] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:50:00] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:50:00] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:50:00] netClient[28] connected at "p2.bet3000.exxs.net:8111"
+[11:50:00] netClient[28] connected at "p2.bet3000.exxs.net:8113"
+[11:50:00] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:50:00] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:50:00] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:50:00] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:50:00] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:50:01] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:50:01] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:50:01] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:50:01] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:50:02] Buffering socket response: socket://85.214.138.195:8111
+[11:50:02] Buffering socket response: socket://85.214.138.195:80
+[11:50:02] Buffering socket response: socket://85.214.138.195:110
+[11:50:02] Buffering socket response: socket://54.217.230.21:443
+[11:50:03] netClient[28] closed at "54.217.230.21:443"
+[11:50:03] netClient[28] closed at "85.214.138.195:8111"
+[11:50:03] netClient[28] closed at "85.214.138.195:110"
+[11:50:03] netClient[28] closed at "85.214.138.195:80"
+[11:51:56] netClient[8] connected at "176.28.10.76:8111"
+[11:51:56] netClient[10] connected at "176.28.10.76:443"
+[11:51:56] netClient[2] connected at "188.40.67.204:8111"
+[11:51:56] netClient[3] connected at "188.40.67.204:80"
+[11:51:56] netClient[4] connected at "188.40.67.204:443"
+[11:51:56] netClient[5] connected at "188.40.67.204:110"
+[11:51:56] netClient[6] connected at "188.40.67.204:143"
+[11:51:56] netClient[9] connected at "176.28.10.76:80"
+[11:51:56] netClient[11] connected at "176.28.10.76:110"
+[11:51:56] netClient[12] connected at "176.28.10.76:143"
+[11:51:56] netClient[24] connected at "p1.bet3000.exxs.net:8111"
+[11:51:56] netClient[15] connected at "85.214.138.195:80"
+[11:51:56] netClient[14] connected at "85.214.138.195:8111"
+[11:51:56] netClient[17] connected at "85.214.138.195:110"
+[11:51:56] netClient[16] connected at "85.214.138.195:443"
+[11:51:56] netClient[18] connected at "85.214.138.195:143"
+[11:51:56] netClient[25] connected at "p1.bet3000.exxs.net:8113"
+[11:51:56] netClient[20] connected at "54.217.230.21:8111"
+[11:51:56] netClient[22] connected at "54.217.230.21:443"
+[11:51:56] netClient[21] connected at "54.217.230.21:80"
+[11:51:56] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:51:56] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:51:56] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:51:56] netClient[28] connected at "p2.bet3000.exxs.net:8113"
+[11:51:56] netClient[27] connected at "p2.bet3000.exxs.net:8111"
+[11:51:56] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:51:56] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:51:56] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:51:56] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:51:56] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:51:56] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:51:56] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:51:56] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:51:56] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:51:58] Buffering socket response: socket://85.214.138.195:8111
+[11:51:58] Buffering socket response: socket://85.214.138.195:80
+[11:51:58] Buffering socket response: socket://54.217.230.21:443
+[11:51:58] Buffering socket response: socket://85.214.138.195:110
+[11:52:00] netClient[14] closed at "85.214.138.195:8111"
+[11:52:00] netClient[22] closed at "54.217.230.21:443"
+[11:52:00] netClient[15] closed at "85.214.138.195:80"
+[11:52:00] netClient[17] closed at "85.214.138.195:110"
+[11:54:03] netClient[10] connected at "176.28.10.76:443"
+[11:54:03] netClient[11] connected at "176.28.10.76:110"
+[11:54:03] netClient[2] connected at "188.40.67.204:8111"
+[11:54:03] netClient[12] connected at "176.28.10.76:143"
+[11:54:03] netClient[4] connected at "188.40.67.204:443"
+[11:54:03] netClient[3] connected at "188.40.67.204:80"
+[11:54:03] netClient[5] connected at "188.40.67.204:110"
+[11:54:03] netClient[6] connected at "188.40.67.204:143"
+[11:54:03] netClient[8] connected at "176.28.10.76:8111"
+[11:54:03] netClient[9] connected at "176.28.10.76:80"
+[11:54:03] netClient[24] connected at "p1.bet3000.exxs.net:8111"
+[11:54:03] netClient[14] connected at "85.214.138.195:8111"
+[11:54:03] netClient[16] connected at "85.214.138.195:443"
+[11:54:03] netClient[15] connected at "85.214.138.195:80"
+[11:54:03] netClient[17] connected at "85.214.138.195:110"
+[11:54:03] netClient[18] connected at "85.214.138.195:143"
+[11:54:03] netClient[25] connected at "p1.bet3000.exxs.net:8113"
+[11:54:03] netClient[20] connected at "54.217.230.21:8111"
+[11:54:03] netClient[21] connected at "54.217.230.21:80"
+[11:54:03] netClient[22] connected at "54.217.230.21:443"
+[11:54:03] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:54:03] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:54:03] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:54:03] netClient[28] connected at "p2.bet3000.exxs.net:8113"
+[11:54:03] netClient[27] connected at "p2.bet3000.exxs.net:8111"
+[11:54:03] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:54:03] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:54:03] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:54:03] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:54:03] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:54:03] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:54:03] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:54:03] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:54:03] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:54:06] Buffering socket response: socket://85.214.138.195:110
+[11:54:06] Buffering socket response: socket://85.214.138.195:8111
+[11:54:06] Buffering socket response: socket://54.217.230.21:443
+[11:54:06] Buffering socket response: socket://85.214.138.195:80
+[11:54:06] Socket timeout (normal exit) detected at: socketio://85.214.138.195:18111
+[11:54:08] Socket timeout (normal exit) detected at: socket://85.214.138.195:110
+[11:54:08] netClient[17] closed at "85.214.138.195:110"
+[11:54:08] Socket timeout (normal exit) detected at: socket://85.214.138.195:8111
+[11:54:08] netClient[14] closed at "85.214.138.195:8111"
+[11:54:08] Socket timeout (normal exit) detected at: socket://85.214.138.195:80
+[11:54:08] netClient[15] closed at "85.214.138.195:80"
+[11:54:08] Socket timeout (normal exit) detected at: socket://54.217.230.21:443
+[11:54:08] netClient[22] closed at "54.217.230.21:443"
+[11:54:21] netClient[9] connected at "176.28.10.76:80"
+[11:54:21] netClient[11] connected at "176.28.10.76:110"
+[11:54:21] netClient[10] connected at "176.28.10.76:443"
+[11:54:21] netClient[12] connected at "176.28.10.76:143"
+[11:54:21] netClient[5] connected at "188.40.67.204:110"
+[11:54:21] netClient[4] connected at "188.40.67.204:443"
+[11:54:21] netClient[2] connected at "188.40.67.204:8111"
+[11:54:21] netClient[3] connected at "188.40.67.204:80"
+[11:54:21] netClient[6] connected at "188.40.67.204:143"
+[11:54:21] netClient[8] connected at "176.28.10.76:8111"
+[11:54:21] netClient[24] connected at "p1.bet3000.exxs.net:8111"
+[11:54:21] netClient[14] connected at "85.214.138.195:8111"
+[11:54:21] netClient[15] connected at "85.214.138.195:80"
+[11:54:21] netClient[17] connected at "85.214.138.195:110"
+[11:54:21] netClient[16] connected at "85.214.138.195:443"
+[11:54:21] netClient[25] connected at "p1.bet3000.exxs.net:8113"
+[11:54:21] netClient[18] connected at "85.214.138.195:143"
+[11:54:21] netClient[27] connected at "p2.bet3000.exxs.net:8111"
+[11:54:21] netClient[28] connected at "p2.bet3000.exxs.net:8113"
+[11:54:21] netClient[21] connected at "54.217.230.21:80"
+[11:54:21] netClient[20] connected at "54.217.230.21:8111"
+[11:54:21] netClient[22] connected at "54.217.230.21:443"
+[11:54:21] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:54:21] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:54:21] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:54:21] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:54:21] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:54:21] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:54:21] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:54:21] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:54:21] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:54:21] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:54:21] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:54:21] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:54:22] Buffering socket response: socket://85.214.138.195:8111
+[11:54:22] Buffering socket response: socket://85.214.138.195:80
+[11:54:22] Buffering socket response: socket://85.214.138.195:110
+[11:54:22] Buffering socket response: socket://54.217.230.21:443
+[11:54:22] Socket timeout (normal exit) detected at: socketio://85.214.138.195:18111
+[11:54:24] Socket timeout (normal exit) detected at: socket://54.217.230.21:443
+[11:54:24] netClient[22] closed at "54.217.230.21:443"
+[11:54:24] Socket timeout (normal exit) detected at: socket://85.214.138.195:8111
+[11:54:24] netClient[14] closed at "85.214.138.195:8111"
+[11:54:24] Socket timeout (normal exit) detected at: socket://85.214.138.195:80
+[11:54:24] netClient[15] closed at "85.214.138.195:80"
+[11:54:24] Socket timeout (normal exit) detected at: socket://85.214.138.195:110
+[11:54:24] netClient[17] closed at "85.214.138.195:110"
+[11:57:56] netClient[8] connected at "socket://176.28.10.76:8111"
+[11:57:56] netClient[12] connected at "socket://176.28.10.76:143"
+[11:57:56] netClient[3] connected at "socket://188.40.67.204:80"
+[11:57:56] netClient[6] connected at "socket://188.40.67.204:143"
+[11:57:56] netClient[2] connected at "socket://188.40.67.204:8111"
+[11:57:56] netClient[4] connected at "socket://188.40.67.204:443"
+[11:57:56] netClient[5] connected at "socket://188.40.67.204:110"
+[11:57:56] netClient[10] connected at "socket://176.28.10.76:443"
+[11:57:56] netClient[11] connected at "socket://176.28.10.76:110"
+[11:57:56] netClient[9] connected at "socket://176.28.10.76:80"
+[11:57:56] netClient[24] connected at "socket://p1.bet3000.exxs.net:8111"
+[11:57:56] netClient[14] connected at "socket://85.214.138.195:8111"
+[11:57:56] netClient[15] connected at "socket://85.214.138.195:80"
+[11:57:56] netClient[17] connected at "socket://85.214.138.195:110"
+[11:57:56] netClient[16] connected at "socket://85.214.138.195:443"
+[11:57:56] netClient[18] connected at "socket://85.214.138.195:143"
+[11:57:56] netClient[25] connected at "socket://p1.bet3000.exxs.net:8113"
+[11:57:56] netClient[20] connected at "socket://54.217.230.21:8111"
+[11:57:56] netClient[22] connected at "socket://54.217.230.21:443"
+[11:57:56] netClient[21] connected at "socket://54.217.230.21:80"
+[11:57:56] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:57:56] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:57:56] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:57:56] netClient[27] connected at "socket://p2.bet3000.exxs.net:8111"
+[11:57:56] netClient[28] connected at "socket://p2.bet3000.exxs.net:8113"
+[11:57:56] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:57:56] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:57:56] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:57:57] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:57:57] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:57:57] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:57:57] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:57:57] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:57:57] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:57:58] Buffering socket response: socket://85.214.138.195:80
+[11:57:58] Buffering socket response: socket://54.217.230.21:443
+[11:57:58] Buffering socket response: socket://85.214.138.195:8111
+[11:57:58] Buffering socket response: socket://85.214.138.195:110
+[11:57:58] Socket timeout (normal exit) detected at: socketio://85.214.138.195:18111
+[11:58:01] Socket timeout (normal exit) detected at: socket://54.217.230.21:443
+[11:58:01] netClient[22] closed at "socket://54.217.230.21:443"
+[11:58:01] Socket timeout (normal exit) detected at: socket://85.214.138.195:8111
+[11:58:01] netClient[14] closed at "socket://85.214.138.195:8111"
+[11:58:01] Socket timeout (normal exit) detected at: socket://85.214.138.195:110
+[11:58:01] netClient[17] closed at "socket://85.214.138.195:110"
+[11:58:01] Socket timeout (normal exit) detected at: socket://85.214.138.195:80
+[11:58:01] netClient[15] closed at "socket://85.214.138.195:80"
+[11:58:08] netClient[8] connected at "socket://176.28.10.76:8111"
+[11:58:08] netClient[9] connected at "socket://176.28.10.76:80"
+[11:58:08] netClient[11] connected at "socket://176.28.10.76:110"
+[11:58:08] netClient[12] connected at "socket://176.28.10.76:143"
+[11:58:08] netClient[4] connected at "socket://188.40.67.204:443"
+[11:58:08] netClient[6] connected at "socket://188.40.67.204:143"
+[11:58:08] netClient[2] connected at "socket://188.40.67.204:8111"
+[11:58:08] netClient[3] connected at "socket://188.40.67.204:80"
+[11:58:08] netClient[5] connected at "socket://188.40.67.204:110"
+[11:58:08] netClient[10] connected at "socket://176.28.10.76:443"
+[11:58:08] netClient[24] connected at "socket://p1.bet3000.exxs.net:8111"
+[11:58:08] netClient[14] connected at "socket://85.214.138.195:8111"
+[11:58:08] netClient[15] connected at "socket://85.214.138.195:80"
+[11:58:08] netClient[17] connected at "socket://85.214.138.195:110"
+[11:58:08] netClient[16] connected at "socket://85.214.138.195:443"
+[11:58:08] netClient[18] connected at "socket://85.214.138.195:143"
+[11:58:08] netClient[25] connected at "socket://p1.bet3000.exxs.net:8113"
+[11:58:08] netClient[27] connected at "socket://p2.bet3000.exxs.net:8111"
+[11:58:08] netClient[28] connected at "socket://p2.bet3000.exxs.net:8113"
+[11:58:08] netClient[20] connected at "socket://54.217.230.21:8111"
+[11:58:08] netClient[22] connected at "socket://54.217.230.21:443"
+[11:58:08] netClient[21] connected at "socket://54.217.230.21:80"
+[11:58:08] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:58:08] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:58:08] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:58:08] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:58:08] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:58:08] Buffering emitted socket response: socketio://54.217.230.21:18111
+[11:58:09] Buffering emitted socket response: socketio://p1.bet3000.exxs.net:18111
+[11:58:09] Buffering emitted socket response: socketio://p2.bet3000.exxs.net:18111
+[11:58:09] Buffering emitted socket response: socketio://176.28.10.76:18111
+[11:58:09] Buffering emitted socket response: socketio://188.40.67.204:18111
+[11:58:09] Buffering emitted socket response: socketio://85.214.138.195:18111
+[11:58:09] Buffering emitted socket response: socketio://54.217.230.21:18111
