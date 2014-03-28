@@ -73,7 +73,6 @@ http.get(requestOptions, function(res) {
                                 fl('netClient[' + clientCount + '] ended at "' + sockProp(i, 'type') + '://' + host + ':' + port + '"');
                             });
                             netClient.on('data', function(data) {
-                            l('************************************')
                                 if ( xFlag ) return;
                                 if ( null === timeOut ) {
                                     setTimeout(timeOutSock.bind(this, i), cfg.timeOutSeconds * 1000);
@@ -117,7 +116,6 @@ http.get(requestOptions, function(res) {
                                 fl('netClient[' + clientCount + '] failed to reconnect at "' + host + ':' + port + '"');
                             });
                             socket.$emit = function() {
-                            l('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
                                 if ( xFlag ) return;
                                 if ( null === timeOut ) {
                                     setTimeout(timeOutSock.bind(this, i), cfg.timeOutSeconds * 1000);
@@ -155,7 +153,6 @@ http.get(requestOptions, function(res) {
                 });
             })(i, clientCount);
         }
-        l('============================TOTAL: ' + clientCount + '=====================')
         async.parallel(asyncStack, function(err) {
             if ( err ) {
                 var msg = (err.message ? err.message : err.toString());

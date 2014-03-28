@@ -6,6 +6,5 @@ global.l = function() {
 
 global.fl = function(str) {
     var moment = require('moment');
-l('[' + moment().format('hh:mm:ss') +  '] ' + str); //DEBUG!!!
     require('fs').appendFile(__dirname + '/logs/' + moment().format('DD_MMM_YYYY') + '.log', '[' + moment().format('hh:mm:ss') +  '] ' + str + "\n", function(err) {});
 };
